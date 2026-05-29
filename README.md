@@ -91,7 +91,7 @@ Then `source ~/.zshrc` and run `debater` from anywhere.
 
 ## Acknowledgements
 
-The token compression strategy used in debater is borrowed from the **[Caveman](https://github.com/getinstachip/caveman)** project — an open-source skill by **[JuliusBrussee](https://github.com/juliusbrussee/caveman)** that makes AI agents communicate in compressed, fragment-heavy prose while preserving full technical accuracy, cutting output tokens by ~65-75%.
+The token compression strategy used in debater is borrowed from the **[Caveman](https://github.com/juliusbrussee/caveman)** project — an open-source skill by **[JuliusBrussee](https://github.com/juliusbrussee)** that makes AI agents communicate in compressed, fragment-heavy prose while preserving full technical accuracy, cutting output tokens by ~65-75%.
 
 Debater uses a trimmed `full`-mode version of the caveman ruleset (`caveman.md`), injected as a priming prompt into both Claude and Codex at session start. No global caveman install required — the rules live entirely inside the session context.
 
